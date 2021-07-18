@@ -108,21 +108,3 @@ Our dataset is relatively clean dataset with not a lot of outliers. Hence we can
 1. Isolation Forest and Local Outlier Factor have given the best performing models.
 2. IQR has made the model performance worse.
 3. All other algorithms have kept the model stable or slightly increased the auc score.
-
-Model	                 OD Tehnique	   AUC Train	AUC Test
-Logistic Regression	       None	           0.852	   0.856
-Random Forest	             None	           0.878	   0.877
-Logistic Regression	       IQR	           0.825	   0.827
-Random Forest	             IQR	           0.864	   0.862
-Logistic Regression	       ABOD	           0.852	   0.856
-Random Forest	             ABOD	           0.878	   0.877
-Logistic Regression	       DBSCAN	         0.852	   0.856
-Random Forest	             DBSCAN	         0.867	   0.865
-Logistic Regression	       IF	             0.853	   0.857
-Random Forest	             IF	             0.88	     0.881
-Logistic Regression	       OCSVM	         0.852	   0.856
-Random Forest	             OCSVM	         0.876	   0.877
-Logistic Regression	       LOF	           0.852	   0.856
-Random Forest	             LOF	           0.88	     0.88
-Logistic Regression	       MCD	           0.853	   0.856
-Random Forest	             MCD	           0.873	   0.872
